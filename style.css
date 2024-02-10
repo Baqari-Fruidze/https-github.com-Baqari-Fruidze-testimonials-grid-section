@@ -5,13 +5,14 @@
 }
 body {
   font-family: "Barlow", sans-serif;
+  background-color: #ecf2f8;
 }
 .box {
   padding: 24px 32px;
 }
 .main {
   flex-grow: 0;
-  background-color: #ecf2f8;
+  /* background-color: #ecf2f8; */
   display: grid;
   grid-template-columns: 255px 255px 255px 255px;
   /* grid-template-rows: 266px 266px; */
@@ -165,12 +166,114 @@ body {
   color: #48556a;
   margin-top: 24px;
 }
-.d {
-  background-color: brown;
+
+.patrick {
   grid-column: 2/4;
+  flex-grow: 0;
+  border-radius: 8px;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  background-color: #19202d;
 }
-.e {
-  background-color: black;
+.patrick-inside {
+  display: flex;
+}
+.patrick-name-surname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.patrick-img {
+  border-radius: 50px;
+}
+.patrick-name {
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  color: #fff;
+}
+.patrick-verified {
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  font-style: normal;
+  color: #fff;
+}
+.patrick-text1 {
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: semi-condensed;
+  color: #ecf2f8;
+  margin-top: 18px;
+}
+.patrick-text2 {
+  opacity: 0.7;
+  font-family: Barlow;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #fff;
+  margin-top: 24px;
+}
+.kira {
+  /* grid-column: 4/5;
+  grid-row: 1/-1; */
+  grid-row: 1/5;
   grid-column: 4/5;
-  grid-row: 1/-1;
+  flex-grow: 0;
+  border-radius: 8px;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  background-color: #fff;
+}
+.kira-inside {
+  display: flex;
+}
+.kira-name-surname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.kira-img {
+  border-radius: 50px;
+}
+.kira-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: #48556a;
+}
+.kira-verified {
+  font-size: 11px;
+  font-weight: 500;
+  color: #48556a;
+}
+.kira-text1 {
+  flex-grow: 0;
+  margin: 18px 0 24px;
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: semi-condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #48556a;
+  margin-top: 18px;
+}
+.kira-text2 {
+  flex-grow: 0;
+  opacity: 0.7;
+  font-family: Barlow;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #48556a;
+  margin-top: 24px;
 }
